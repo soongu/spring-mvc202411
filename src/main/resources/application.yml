@@ -1,1 +1,9 @@
-spring.application.name=spring-mvc-demo202411
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/views/
+      suffix: .jsp
+
+logging:
+  level:
+    org.springframework.web.servlet.DispatcherServlet: DEBUG
